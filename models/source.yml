@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: ev
+    database: dev_ev_db
+    schema: dev_raw_schema
+    tables:
+      - name: EV_DATA
+      - name: EV_BUYERS_DATA
+
