@@ -5,7 +5,11 @@ sources:
     schema: dev_raw_schema
     tables:
       - name: EV_DATA
+      - identifire: EV
+      - description: EV table is store data of the Model's of two wheeler and four wheeler;
       - name: EV_BUYERS_DATA
+      - identifire: EV_BUY
+      - description: It store buyers detail of product.
         loaded_at_field: _etl_loaded_at
         freshness:
         warn_after: {count:12 ,period: hour}
